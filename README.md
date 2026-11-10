@@ -1,4 +1,4 @@
-﻿# HỆ THỐNG QUẢN LÝ ĐÀO TẠO VÀ ĐĂNG KÝ KHÓA HỌC
+﻿# HỆ THỐNG QUẢN LÝ ĐÀO TẠO
 ### (Academic Course Registration System)
 
 [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)

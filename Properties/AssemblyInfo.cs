@@ -2,11 +2,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Course Registration")]
-[assembly: AssemblyDescription("Phần mềm Quản lý Bán và Đăng ký Khóa học - WinForms & LINQ to SQL")]
+[assembly: AssemblyTitle("Hệ thống Quản lý Đào tạo")]
+[assembly: AssemblyDescription("Hệ thống Quản lý Đào tạo - WinForms & LINQ to SQL")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("EduPro Academy")]
-[assembly: AssemblyProduct("Course Registration")]
+[assembly: AssemblyProduct("Hệ thống Quản lý Đào tạo")]
 [assembly: AssemblyCopyright("Copyright © 2026")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

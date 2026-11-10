@@ -104,7 +104,7 @@
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(564, 28);
             this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "HỆ THỐNG QUẢN LÝ ĐÀO TẠO VÀ ĐĂNG KÝ KHÓA HỌC";
+            this.lblTitle.Text = "HỆ THỐNG QUẢN LÝ ĐÀO TẠO";
             // 
             // pnlFooter
             // 
@@ -498,7 +498,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Giới thiệu nhóm thực hiện - Đề tài Quản lý Đào tạo và Đăng ký Khóa học";
+            this.Text = "Giới thiệu nhóm thực hiện - Hệ thống Quản lý Đào tạo";
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
             this.pnlFooter.ResumeLayout(false);

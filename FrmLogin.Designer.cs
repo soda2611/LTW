@@ -152,7 +152,7 @@ namespace Course_Registration
             this.lblBrandTitle.Name = "lblBrandTitle";
             this.lblBrandTitle.Size = new System.Drawing.Size(270, 96);
             this.lblBrandTitle.TabIndex = 1;
-            this.lblBrandTitle.Text = "Hệ thống Quản lý\r\nĐăng ký Khóa học";
+            this.lblBrandTitle.Text = "Hệ thống Quản lý\r\nĐào tạo";
             // 
             // lblBrandBadge
             // 
@@ -347,7 +347,7 @@ namespace Course_Registration
             this.MaximizeBox = false;
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Đăng nhập - Hệ thống Quản lý Đăng ký Khóa học";
+            this.Text = "Đăng nhập - Hệ thống Quản lý Đào tạo";
             this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.pnlBrand.ResumeLayout(false);
             this.pnlBrand.PerformLayout();

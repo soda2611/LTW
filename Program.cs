@@ -7,7 +7,7 @@ namespace Course_Registration
     internal static class Program
     {
         /// <summary>
-        /// Điểm khởi chạy chính của ứng dụng Quản lý Bán & Đăng ký Khóa học.
+        /// Điểm khởi chạy chính của ứng dụng Hệ thống Quản lý Đào tạo.
         /// </summary>
         [STAThread]
         static void Main()

@@ -483,7 +483,7 @@ namespace Course_Registration
             this.lblAppTitle.Name = "lblAppTitle";
             this.lblAppTitle.Size = new System.Drawing.Size(385, 23);
             this.lblAppTitle.TabIndex = 0;
-            this.lblAppTitle.Text = "Hệ thống quản lý đào tạo và đăng ký khóa học";
+            this.lblAppTitle.Text = "Hệ thống Quản lý Đào tạo";
             // 
             // tabAdmin
             // 
@@ -4000,7 +4000,7 @@ namespace Course_Registration
             this.MinimumSize = new System.Drawing.Size(1180, 700);
             this.Name = "FrmAdminMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quản trị đào tạo - Phần mềm quản lý đào tạo và đăng ký khóa học";
+            this.Text = "Quản trị đào tạo - Hệ thống Quản lý Đào tạo";
             this.Load += new System.EventHandler(this.FrmAdminMain_Load);
             this.pnlTopBar.ResumeLayout(false);
             this.pnlTopBar.PerformLayout();

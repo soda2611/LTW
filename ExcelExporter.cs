@@ -214,7 +214,7 @@ namespace Course_Registration
 
             // Row 2: Subtitle Metadata
             sb.AppendLine(@"    <row r=""2"" ht=""20"" customHeight=""1"">");
-            string metaText = string.Format("Thời gian kết xuất: {0:dd/MM/yyyy HH:mm:ss} | Tổng số bản ghi: {1} | Hệ thống Course Registration",
+            string metaText = string.Format("Thời gian kết xuất: {0:dd/MM/yyyy HH:mm:ss} | Tổng số bản ghi: {1} | Hệ thống Quản lý Đào tạo",
                 DateTime.Now, dgv.Rows.Count);
             sb.AppendFormat(@"      <c r=""A2"" s=""3"" t=""inlineStr""><is><t>{0}</t></is></c>{1}",
                 EscapeXml(metaText), Environment.NewLine);

@@ -2562,7 +2562,7 @@ namespace Course_Registration
             this.MinimumSize = new System.Drawing.Size(1140, 670);
             this.Name = "FrmStudentMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cổng thông tin học viên - Phần mềm quản lý đào tạo và đăng ký khóa học";
+            this.Text = "Cổng thông tin học viên - Hệ thống Quản lý Đào tạo";
             this.Load += new System.EventHandler(this.FrmStudentMain_Load);
             this.pnlStudentHeader.ResumeLayout(false);
             this.pnlStudentHeader.PerformLayout();

@@ -63,7 +63,7 @@ namespace Course_Registration
             {
                 // 1. Tiêu đề đơn vị & Số biên lai
                 g.DrawString("PHÒNG ĐÀO TẠO & QUẢN LÝ HỌC VỤ", fontOrg, brushDark, left, y);
-                g.DrawString("Hệ thống quản lý đăng ký khóa học", fontSub, brushMuted, left, y + 22);
+                g.DrawString("Hệ thống Quản lý Đào tạo", fontSub, brushMuted, left, y + 22);
 
                 StringFormat rightAlign = new StringFormat { Alignment = StringAlignment.Far };
                 string receiptNo = string.Format("Số biên lai: BL-{0:D6}", data.EnrollmentId);
