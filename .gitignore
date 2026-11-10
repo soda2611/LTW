@@ -1,0 +1,16 @@
+## Visual Studio build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+## Visual Studio cache and settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+
+## NuGet packages (tùy chọn: bỏ comment dòng dưới nếu không muốn push thư mục packages/)
+# packages/

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14, 16" name="CourseRegistrationDataContext">
+  <DataContextMoniker Name="/CourseRegistrationDataContext" />
+  <nestedChildShapes>
+    <classShape Id="f83050b4-ee35-4f74-9b55-691bea74ee39" absoluteBounds="1.0, 1.0, 2.5, 1.7">
+      <DataClassMoniker Name="/CourseRegistrationDataContext/Category" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30376eed-b3ec-42d3-a773-78d344bc98f4" name="DataPropertiesCompartment" absoluteBounds="1.015, 1.460, 2.470, 1.200" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1de2bd2c-bd55-489d-8715-5ca6608a0207" absoluteBounds="4.5, 1.0, 3.0, 4.3">
+      <DataClassMoniker Name="/CourseRegistrationDataContext/Course" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ce8ec657-c159-4155-b38b-406220b27bfb" name="DataPropertiesCompartment" absoluteBounds="4.515, 1.460, 2.970, 3.800" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="31f4ba61-ae32-42e1-aa87-2e508ba62da3" absoluteBounds="8.5, 1.0, 2.8, 2.5">
+      <DataClassMoniker Name="/CourseRegistrationDataContext/CourseReview" />
+      <nestedChildShapes>
+        <elementListCompartment Id="18530d86-62ce-4c5c-8041-417c68659806" name="DataPropertiesCompartment" absoluteBounds="8.515, 1.460, 2.770, 2.000" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2dce52ec-36a4-475e-8d69-0edf225ab90c" absoluteBounds="1.0, 6.5, 2.8, 3.8">
+      <DataClassMoniker Name="/CourseRegistrationDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="992719a5-2e9e-4a64-a524-4ac4b636b350" name="DataPropertiesCompartment" absoluteBounds="1.015, 6.960, 2.770, 3.300" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad39a286-4a8c-4e32-961d-fa292ac56783" absoluteBounds="4.5, 6.5, 3.0, 3.8">
+      <DataClassMoniker Name="/CourseRegistrationDataContext/Enrollment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3af7e56a-3770-4307-90dd-174d592605c8" name="DataPropertiesCompartment" absoluteBounds="4.515, 6.960, 2.970, 3.300" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6077a787-12cb-4f69-bb04-68340309ea42" absoluteBounds="8.5, 6.5, 2.8, 3.8">
+      <DataClassMoniker Name="/CourseRegistrationDataContext/Voucher" />
+      <nestedChildShapes>
+        <elementListCompartment Id="efced80c-51ae-46b8-8942-bef0f0bc8133" name="DataPropertiesCompartment" absoluteBounds="8.515, 6.960, 2.770, 3.300" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c67512c9-6dac-4c24-926e-a13e7ed179d5" absoluteBounds="1.0, 11.5, 2.8, 2.5">
+      <DataClassMoniker Name="/CourseRegistrationDataContext/WalletTransaction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7a0b9971-4146-4a00-a2f9-408367c3d750" name="DataPropertiesCompartment" absoluteBounds="1.015, 11.960, 2.770, 2.000" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
