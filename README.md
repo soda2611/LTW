@@ -90,8 +90,10 @@ Hệ thống cung cấp sẵn các tài khoản kiểm thử mặc định:
 | Loại tài khoản | Tên đăng nhập | Mật khẩu | Quyền hạn & Chức năng kiểm thử chính |
 | :--- | :--- | :--- | :--- |
 | **Quản trị viên** | `admin` | `123456` | Toàn quyền Quản trị: Quản lý khóa học, danh mục, tài khoản, duyệt đăng ký, thống kê doanh thu, in 3 mẫu báo cáo RDLC. |
-| **Học viên 1** | `hocvien1` | `123456` | Tài khoản học viên (có sẵn ví 5.000.000 VNĐ): Tra cứu môn học, đăng ký môn, xem Thời khóa biểu ma trận tuần, in biên lai học phí GDI+ Barcode, đánh giá sao. |
-| **Học viên 2** | `hocvien2` | `123456` | Tài khoản học viên thử nghiệm: Thử nghiệm đăng ký nhiều tài khoản song song, kiểm tra xung đột trùng lịch và kiểm tra số dư ví. |
+| **Học viên 1** | `hocvien1` | `123456` | Tài khoản học viên chính: Tra cứu môn học, đăng ký môn, xem Thời khóa biểu ma trận tuần, in biên lai học phí GDI+ Barcode, đánh giá sao. |
+| **Học viên 2** | `hocvien2` | `123456` | Tài khoản học viên thử nghiệm (Số dư: 1.800.000 VNĐ): Kiểm thử đăng ký khóa học, kiểm tra xung đột trùng lịch và thanh toán ví. |
+| **Học viên 3** | `hocvien3` | `123456` | Tài khoản học viên thử nghiệm (Số dư: 1.200.000 VNĐ): Đã đăng ký môn học và thực hiện giao dịch học phí. |
+| **Học viên 4** | `hocvien4` | `123456` | Tài khoản học viên thử nghiệm (Số dư: 3.200.000 VNĐ): Kiểm thử số dư lớn và nạp tiền ví. |
 
 > *(Tại màn hình Đăng nhập `FrmLogin`, có sẵn 2 nút tiện ích **"Điền mẫu Quản trị"** và **"Điền mẫu Học viên"** để hỗ trợ chấm thi và kiểm thử nhanh chỉ trong 1 thao tác).*
 
@@ -108,10 +110,10 @@ Hệ thống cung cấp sẵn các tài khoản kiểm thử mặc định:
 ### Cách 1: Chạy trực tiếp từ Visual Studio (Khuyến nghị)
 1. Mở tệp giải pháp `Course Registration.sln`.
 2. Nhấn phím `F5` (hoặc nút `Start`).
-3. **Cơ chế CSDL tự động (`DbHelper.cs`):** Ứng dụng tự động dò tìm máy chủ SQL Server đang chạy (`localhost`, `.\SQLEXPRESS`, `(localdb)\MSSQLLocalDB`). Nếu phát hiện cơ sở dữ liệu `CourseRegistrationDB` chưa tồn tại, hệ thống sẽ tự động khởi tạo toàn bộ 7 bảng và nạp sẵn dữ liệu mẫu thực tế mà không đòi hỏi thao tác thủ công.
+3. **Cơ chế CSDL tự động "Cắm và Chạy" (`DbHelper.cs`):** Ứng dụng tự động dò tìm máy chủ SQL Server qua danh sách các Instance phổ biến: `localhost`, `.\SQLEXPRESS`, `(localdb)\MSSQLLocalDB`, `SERVER-NAME` (Environment.MachineName). Nếu tìm thấy máy chủ SQL Server đang hoạt động nhưng cơ sở dữ liệu `CourseRegistrationDB` chưa tồn tại, `DbHelper` sẽ tự động đọc tệp kịch bản `Database.sql`, thực thi tuần tự các lô lệnh (`GO` Batches) để tự động khởi tạo cơ sở dữ liệu và nạp toàn bộ dữ liệu mẫu ban đầu. Trong trường hợp tệp kịch bản không khả dụng, hệ thống tự động kích hoạt tầng cứu hộ nạp dữ liệu mẫu bằng LINQ to SQL (Mockup Fallback) và luôn bảo đảm tài khoản quản trị `admin` được kích hoạt.
 
 ### Cách 2: Khởi chạy tệp thực thi (.exe) đã biên dịch
-- Đường dẫn file chạy sẵn:
+- Đường dẫn file chạy sẵn (đã được cấu hình tự động sao chép `Database.sql` đi kèm):
   ```
   bin\Debug\Course Registration.exe
   ```

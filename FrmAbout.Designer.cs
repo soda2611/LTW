@@ -82,7 +82,7 @@
             this.lblDescription.Name = "lblDescription";
             this.lblDescription.Size = new System.Drawing.Size(462, 15);
             this.lblDescription.TabIndex = 2;
-            this.lblDescription.Text = "Giảng viên hướng dẫn: Bộ môn Công nghệ Phần mềm | Đồ án Lập trình Windows";
+            this.lblDescription.Text = "Giảng viên hướng dẫn: Bộ môn Công nghệ Phần mềm • Trường Đại học Sư phạm TP.HCM";
             // 
             // lblSubtitle
             // 
@@ -93,7 +93,7 @@
             this.lblSubtitle.Name = "lblSubtitle";
             this.lblSubtitle.Size = new System.Drawing.Size(434, 17);
             this.lblSubtitle.TabIndex = 1;
-            this.lblSubtitle.Text = "HỌC PHẦN: LẬP TRÌNH WINDOWS • KHOA CNTT • LỚP CNTT K51";
+            this.lblSubtitle.Text = "HỌC PHẦN: LẬP TRÌNH TRÊN MÔI TRƯỜNG WINDOWS / CƠ SỞ DỮ LIỆU • KHÓA 51";
             // 
             // lblTitle
             // 
@@ -104,7 +104,7 @@
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(564, 28);
             this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "HỆ THỐNG QUẢN LÝ ĐĂNG KÝ HỌC PHẦN & KHÓA HỌC";
+            this.lblTitle.Text = "HỆ THỐNG QUẢN LÝ ĐÀO TẠO VÀ ĐĂNG KÝ KHÓA HỌC";
             // 
             // pnlFooter
             // 
@@ -124,9 +124,9 @@
             this.lblFooterNote.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(116)))), ((int)(((byte)(139)))));
             this.lblFooterNote.Location = new System.Drawing.Point(22, 20);
             this.lblFooterNote.Name = "lblFooterNote";
-            this.lblFooterNote.Size = new System.Drawing.Size(489, 15);
+            this.lblFooterNote.Size = new System.Drawing.Size(520, 15);
             this.lblFooterNote.TabIndex = 0;
-            this.lblFooterNote.Text = "Kiến trúc: 3-Tier Layered Architecture (.NET 4.8) • Tỉ lệ đóng góp: 25% - 25% - 25% - 25%";
+            this.lblFooterNote.Text = "Kiến trúc 3 tầng (3-Tier) • Tỷ lệ đóng góp: Hà (28%) - Nhật (32%) - Trang (12%) - Trúc (28%)";
             // 
             // btnClose
             // 
@@ -192,11 +192,11 @@
             this.lblDesc1.Name = "lblDesc1";
             this.lblDesc1.Size = new System.Drawing.Size(378, 110);
             this.lblDesc1.TabIndex = 4;
-            this.lblDesc1.Text = "• Biên soạn tổng quan đề tài, mục tiêu & phạm vi hệ thống.\r\n" +
-    "• Thiết kế Form Đăng nhập & Đăng ký trên WinForms Designer.\r\n" +
-    "• Xây dựng và ánh xạ sơ đồ quan hệ CSDL trên LINQ to SQL (.dbml).\r\n" +
-    "• Kiểm tra tính hợp lệ dữ liệu nhập trên giao diện người dùng.\r\n" +
-    "• Tỷ lệ đóng góp: 25%";
+            this.lblDesc1.Text = "• Khảo sát đề tài, thiết kế CSDL 7 bảng chuẩn 3NF/BCNF.\r\n" +
+    "• Thiết lập 4 nhóm ràng buộc toàn vẹn (PK, FK, Domain, Rules).\r\n" +
+    "• Thiết kế Form Đăng nhập (FrmLogin) & Đăng ký (FrmRegister).\r\n" +
+    "• Cấu hình App.config, kết nối LINQ to SQL O/R Mapping (.dbml).\r\n" +
+    "• Tỷ lệ đóng góp: 28% • Mức độ: 100% (Đánh giá: A)";
             // 
             // lblRole1
             // 
@@ -207,7 +207,7 @@
             this.lblRole1.Name = "lblRole1";
             this.lblRole1.Size = new System.Drawing.Size(260, 13);
             this.lblRole1.TabIndex = 3;
-            this.lblRole1.Text = "TỔNG QUAN ĐỀ TÀI, ĐĂNG NHẬP, ĐĂNG KÝ & CSDL";
+            this.lblRole1.Text = "KHẢO SÁT ĐỀ TÀI, CƠ SỞ DỮ LIỆU & ĐĂNG NHẬP/ĐĂNG KÝ";
             // 
             // lblMSSV1
             // 
@@ -272,11 +272,11 @@
             this.lblDesc2.Name = "lblDesc2";
             this.lblDesc2.Size = new System.Drawing.Size(378, 110);
             this.lblDesc2.TabIndex = 4;
-            this.lblDesc2.Text = "• Điều phối nhóm, thiết kế luồng xử lý và phân quyền hệ thống.\r\n" +
-    "• Cài đặt chức năng Quản trị viên (FrmAdminMain) & quản lý dữ liệu.\r\n" +
-    "• Xây dựng thuật toán kiểm tra trùng lịch (ScheduleHelper).\r\n" +
-    "• Cài đặt bảo mật mật khẩu PBKDF2, mã hóa AES-256 & UserSession.\r\n" +
-    "• Tỷ lệ đóng góp: 25%";
+            this.lblDesc2.Text = "• Thiết kế kiến trúc 3 tầng (3-Tier Layered Architecture) & điều phối nhóm.\r\n" +
+    "• Cài đặt chức năng Quản trị viên (FrmAdminMain 7 Tab) toàn diện.\r\n" +
+    "• Thuật toán phát hiện trùng lịch đa chiều (ScheduleHelper) & ACID.\r\n" +
+    "• Bảo mật PBKDF2 RFC 2898, mã hóa AES-256, Session & xuất Excel.\r\n" +
+    "• Tỷ lệ đóng góp: 32% • Mức độ: 100% (Đánh giá: A+)";
             // 
             // lblRole2
             // 
@@ -287,7 +287,7 @@
             this.lblRole2.Name = "lblRole2";
             this.lblRole2.Size = new System.Drawing.Size(262, 13);
             this.lblRole2.TabIndex = 3;
-            this.lblRole2.Text = "TRƯỞNG NHÓM • QUẢN TRỊ VIÊN & THUẬT TOÁN LỊCH HỌC";
+            this.lblRole2.Text = "TRƯỞNG NHÓM • KIẾN TRÚC 3 TẦNG & QUẢN TRỊ VIÊN";
             // 
             // lblMSSV2
             // 
@@ -352,11 +352,11 @@
             this.lblDesc3.Name = "lblDesc3";
             this.lblDesc3.Size = new System.Drawing.Size(378, 111);
             this.lblDesc3.TabIndex = 4;
-            this.lblDesc3.Text = "• Xây dựng kịch bản kiểm thử hộp đen (Bộ 10 Test Cases chi tiết).\r\n" +
+            this.lblDesc3.Text = "• Hỗ trợ chạy thử nghiệm phương pháp hộp đen trên giao diện.\r\n" +
     "• Áp dụng kỹ thuật phân tích giá trị biên (BVA) & phân vùng tương đương.\r\n" +
-    "• Thiết kế trực quan biểu đồ cột và tròn (MS Chart) trên Form Quản trị.\r\n" +
-    "• Kiểm chứng toàn vẹn dữ liệu, đánh giá & nghiệm thu hệ thống.\r\n" +
-    "• Tỷ lệ đóng góp: 25%";
+    "• Ghi nhận số liệu thực thi chi tiết cho Bộ 10 Ca kiểm thử (TC01-TC10).\r\n" +
+    "• Kiểm tra tính hợp lệ dữ liệu nhập và phản hồi cảnh báo trên UI.\r\n" +
+    "• Tỷ lệ đóng góp: 12% • Mức độ: 85% (Đánh giá: B)";
             // 
             // lblRole3
             // 
@@ -367,7 +367,7 @@
             this.lblRole3.Name = "lblRole3";
             this.lblRole3.Size = new System.Drawing.Size(248, 13);
             this.lblRole3.TabIndex = 3;
-            this.lblRole3.Text = "KIỂM THỬ HỆ THỐNG, ĐẢM BẢO CHẤT LƯỢNG & BIỂU ĐỒ";
+            this.lblRole3.Text = "HỖ TRỢ THỬ NGHIỆM GIAO DIỆN & BẢNG 10 TEST CASES";
             // 
             // lblMSSV3
             // 
@@ -432,11 +432,11 @@
             this.lblDesc4.Name = "lblDesc4";
             this.lblDesc4.Size = new System.Drawing.Size(378, 111);
             this.lblDesc4.TabIndex = 4;
-            this.lblDesc4.Text = "• Thiết kế giao diện Cổng Học viên (FrmStudentMain) trên WinForms Designer.\r\n" +
-    "• Thiết kế ma trận Thời khóa biểu tuần 3 ca × 7 ngày trực quan.\r\n" +
-    "• Thiết kế trọn bộ 3 mẫu báo cáo in ấn trên Microsoft RDLC Designer.\r\n" +
-    "• Thiết kế giao diện FrmReportViewer & in biên lai học phí (GDI+).\r\n" +
-    "• Tỷ lệ đóng góp: 25%";
+            this.lblDesc4.Text = "• Thiết kế Cổng Học viên (FrmStudentMain 6 Tab) Responsive UI.\r\n" +
+    "• Xây dựng ma trận Thời khóa biểu tuần 3 ca × 7 ngày trực quan.\r\n" +
+    "• Thiết kế trọn bộ 3 mẫu báo cáo Microsoft RDLC & in Barcode GDI+.\r\n" +
+    "• Thiết kế biểu đồ thống kê trực quan (MS Chart cột & tròn).\r\n" +
+    "• Tỷ lệ đóng góp: 28% • Mức độ: 100% (Đánh giá: A)";
             // 
             // lblRole4
             // 
@@ -447,7 +447,7 @@
             this.lblRole4.Name = "lblRole4";
             this.lblRole4.Size = new System.Drawing.Size(225, 13);
             this.lblRole4.TabIndex = 3;
-            this.lblRole4.Text = "THIẾT KẾ CỔNG HỌC VIÊN, THỜI KHÓA BIỂU & BÁO CÁO RDLC";
+            this.lblRole4.Text = "CỔNG HỌC VIÊN, THỜI KHÓA BIỂU, BÁO CÁO RDLC & BIỂU ĐỒ";
             // 
             // lblMSSV4
             // 
@@ -498,7 +498,7 @@
             this.MinimizeBox = false;
             this.Name = "FrmAbout";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Giới thiệu nhóm thực hiện - Đề tài Quản lý Đăng ký Khóa học";
+            this.Text = "Giới thiệu nhóm thực hiện - Đề tài Quản lý Đào tạo và Đăng ký Khóa học";
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
             this.pnlFooter.ResumeLayout(false);
