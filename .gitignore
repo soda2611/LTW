@@ -15,3 +15,9 @@
 ## NuGet packages (tùy chọn: bỏ comment dòng dưới nếu không muốn push thư mục packages/)
 # packages/
 
+## Tài liệu báo cáo tiểu luận (Báo cáo Word, Markdown và PDF)
+*.docx
+*.doc
+*.pdf
+BAO_CAO_CUOI_KY.*
+tennhom.*
