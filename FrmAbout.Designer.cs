@@ -126,7 +126,7 @@
             this.lblFooterNote.Name = "lblFooterNote";
             this.lblFooterNote.Size = new System.Drawing.Size(520, 15);
             this.lblFooterNote.TabIndex = 0;
-            this.lblFooterNote.Text = "Kiến trúc 3 tầng (3-Tier) • Tỷ lệ đóng góp: Hà (28%) - Nhật (32%) - Trang (12%) - Trúc (28%)";
+            this.lblFooterNote.Text = "Kiến trúc 3 tầng (3-Tier Layered Architecture) • Thiết kế Windows Forms Designer & LINQ to SQL";
             // 
             // btnClose
             // 
