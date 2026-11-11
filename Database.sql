@@ -1,5 +1,5 @@
 -- ============================================================================
--- HỌC PHẦN: CƠ SỞ DỮ LIỆU / LẬP TRÌNH TRÊN MÔI TRƯỜNG WINDOWS
+-- HỌC PHẦN: LẬP TRÌNH WINDOWS / CƠ SỞ DỮ LIỆU
 -- ĐỀ TÀI: HỆ THỐNG QUẢN LÝ ĐÀO TẠO (ACADEMIC ERP)
 -- SINH VIÊN PHỤ TRÁCH THIẾT KẾ CSDL & SQL: TRẦN NGỌC HÀ
 -- Hệ quản trị CSDL: Microsoft SQL Server | Công nghệ ánh xạ: LINQ to SQL

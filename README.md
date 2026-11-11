@@ -1,5 +1,5 @@
 ﻿# HỆ THỐNG QUẢN LÝ ĐÀO TẠO
-> **Đồ án kết thúc học phần:** Lập trình trên môi trường Windows  
+> **Đồ án kết thúc học phần:** Lập trình Windows  
 > **Trường Đại học Sư phạm TP.HCM** – Khoa Công nghệ Thông tin
 
 [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)

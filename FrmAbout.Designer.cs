@@ -93,7 +93,7 @@
             this.lblSubtitle.Name = "lblSubtitle";
             this.lblSubtitle.Size = new System.Drawing.Size(434, 17);
             this.lblSubtitle.TabIndex = 1;
-            this.lblSubtitle.Text = "HỌC PHẦN: LẬP TRÌNH TRÊN MÔI TRƯỜNG WINDOWS / CƠ SỞ DỮ LIỆU • KHÓA 51";
+            this.lblSubtitle.Text = "HỌC PHẦN: LẬP TRÌNH WINDOWS • KHÓA 51";
             // 
             // lblTitle
             // 
