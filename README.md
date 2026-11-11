@@ -12,12 +12,12 @@
 
 ## 1. THÀNH VIÊN NHÓM
 
-| STT | Họ và tên | MSSV | Vai trò chính | Đóng góp |
-| :-: | :--- | :-: | :--- | :-: |
-| 1 | **Hồ Minh Nhật** *(Trưởng nhóm)* | 51.01.104.065 | Kiến trúc 3 tầng, Cổng Quản trị, Thuật toán trùng lịch, Bảo mật PBKDF2 | **32%** |
-| 2 | **Trần Ngọc Hà** | 51.01.104.020 | Thiết kế CSDL (3NF), Xác thực & Đăng ký, Cấu hình kết nối CSDL | **28%** |
-| 3 | **Đào Khánh Trúc** | 51.01.104.109 | Cổng Học viên, Ma trận TKB tuần, Báo cáo RDLC & In ấn GDI+ Code39 | **28%** |
-| 4 | **Phan Thị Trang** | 51.01.104.102 | Kiểm thử hệ thống (QA/QC), Phân tích biên (BVA), Kịch bản test TC01-TC10 | **12%** |
+| STT | Họ và tên | MSSV | Vai trò và nhiệm vụ chính |
+| :-: | :--- | :-: | :--- |
+| 1 | **Hồ Minh Nhật** *(Trưởng nhóm)* | 51.01.104.065 | Kiến trúc 3 tầng, Cổng Quản trị, Thuật toán trùng lịch, Bảo mật PBKDF2 |
+| 2 | **Trần Ngọc Hà** | 51.01.104.020 | Thiết kế CSDL (3NF), Xác thực & Đăng ký, Cấu hình kết nối CSDL |
+| 3 | **Đào Khánh Trúc** | 51.01.104.109 | Cổng Học viên, Ma trận TKB tuần, Báo cáo RDLC & In ấn GDI+ Code39 |
+| 4 | **Phan Thị Trang** | 51.01.104.102 | Kiểm thử hệ thống (QA/QC), Phân tích biên (BVA), Kịch bản test TC01-TC10 |
 
 ---
 
