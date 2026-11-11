@@ -82,7 +82,7 @@
             this.lblDescription.Name = "lblDescription";
             this.lblDescription.Size = new System.Drawing.Size(462, 15);
             this.lblDescription.TabIndex = 2;
-            this.lblDescription.Text = "Giảng viên hướng dẫn: Bộ môn Công nghệ Phần mềm • Trường Đại học Sư phạm TP.HCM";
+            this.lblDescription.Text = "Giảng viên hướng dẫn: ThS. Lương Trần Ngọc Khiết • Trường Đại học Sư phạm TP.HCM";
             // 
             // lblSubtitle
             // 

@@ -1,6 +1,7 @@
 ﻿# HỆ THỐNG QUẢN LÝ ĐÀO TẠO
 > **Đồ án kết thúc học phần:** Lập trình Windows  
-> **Trường Đại học Sư phạm TP.HCM** – Khoa Công nghệ Thông tin
+> **Trường Đại học Sư phạm TP.HCM** – Khoa Công nghệ Thông tin  
+> **Giảng viên hướng dẫn:** ThS. Lương Trần Ngọc Khiết
 
 [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.8-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![C# Windows Forms](https://img.shields.io/badge/C%23-WinForms-239120?logo=c-sharp)](https://learn.microsoft.com/dotnet/desktop/winforms/)

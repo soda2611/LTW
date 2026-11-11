@@ -1,6 +1,7 @@
 -- ============================================================================
--- HỌC PHẦN: LẬP TRÌNH WINDOWS / CƠ SỞ DỮ LIỆU
+-- HỌC PHẦN: LẬP TRÌNH WINDOWS
 -- ĐỀ TÀI: HỆ THỐNG QUẢN LÝ ĐÀO TẠO (ACADEMIC ERP)
+-- GIẢNG VIÊN HƯỚNG DẪN: THS. LƯƠNG TRẦN NGỌC KHIẾT
 -- SINH VIÊN PHỤ TRÁCH THIẾT KẾ CSDL & SQL: TRẦN NGỌC HÀ
 -- Hệ quản trị CSDL: Microsoft SQL Server | Công nghệ ánh xạ: LINQ to SQL
 -- Kiến trúc chuẩn hóa: ANSI-SPARC 3 Mức | Mô hình: Quan hệ (Relational Model)
