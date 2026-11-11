@@ -11,6 +11,7 @@ namespace Course_Registration
         public FrmReportViewer()
         {
             InitializeComponent();
+            try { this.Icon = System.Drawing.Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { }
         }
 
         private void FrmReportViewer_Load(object sender, EventArgs e)

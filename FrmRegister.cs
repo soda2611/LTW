@@ -11,6 +11,7 @@ namespace Course_Registration
         public FrmRegister()
         {
             InitializeComponent();
+            try { this.Icon = System.Drawing.Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { }
         }
 
         private void btnRegister_Click(object sender, EventArgs e)

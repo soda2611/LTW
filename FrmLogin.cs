@@ -9,6 +9,7 @@ namespace Course_Registration
         public FrmLogin()
         {
             InitializeComponent();
+            try { this.Icon = System.Drawing.Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { }
         }
 
         private void FrmLogin_Load(object sender, EventArgs e)

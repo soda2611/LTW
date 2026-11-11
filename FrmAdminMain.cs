@@ -68,6 +68,7 @@ namespace Course_Registration
         {
             _currentAdminId = adminUserId;
             InitializeComponent();
+            try { this.Icon = System.Drawing.Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { }
             ConfigureGrids();
         }
 

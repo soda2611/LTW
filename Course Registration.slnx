@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../Setup_HeThongQuanLiDaoTao/Setup_HeThongQuanLiDaoTao.vdproj" Type="Installer" />
   <Project Path="Course Registration.csproj" Id="9e6b21a4-7b1d-4d91-89c2-53e47f0a8123" />
 </Solution>

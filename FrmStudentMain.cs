@@ -92,6 +92,7 @@ namespace Course_Registration
         {
             _studentId = studentId;
             InitializeComponent();
+            try { this.Icon = System.Drawing.Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { }
             ConfigureGrids();
         }
 
