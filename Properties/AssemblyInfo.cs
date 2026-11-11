@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Hệ thống Quản lý Đào tạo")]
 [assembly: AssemblyDescription("Hệ thống Quản lý Đào tạo - WinForms & LINQ to SQL")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("EduPro Academy")]
+[assembly: AssemblyCompany("Phép thuật Winx")]
 [assembly: AssemblyProduct("Hệ thống Quản lý Đào tạo")]
 [assembly: AssemblyCopyright("Copyright © 2026")]
 [assembly: AssemblyTrademark("")]
