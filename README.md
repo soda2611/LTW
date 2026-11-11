@@ -66,30 +66,40 @@ Tại màn hình đăng nhập, có sẵn 2 nút **"Điền mẫu Quản trị"*
 
 ---
 
-## 5. CẤU TRÚC DỰ ÁN
+## 5. CẤU TRÚC THƯ MỤC DỰ ÁN (THỰC TẾ)
 
 ```text
 Phép thuật Winx/
-├── Course Registration.sln     # Solution Visual Studio
-├── Course Registration.csproj    # Cấu hình dự án WinForms (.NET 4.8)
-├── Database.sql                # Script CSDL 7 bảng chuẩn 3NF & dữ liệu mẫu
-├── CourseRegistration.dbml     # Ánh xạ ORM LINQ to SQL
-├── Forms/                      # Giao diện người dùng
-│   ├── FrmLogin.cs             # Màn hình Đăng nhập & Xác thực
-│   ├── FrmRegister.cs          # Đăng ký tài khoản học viên mới
-│   ├── FrmAdminMain.cs         # Cổng Quản trị viên (7 Tab quản lý)
-│   ├── FrmStudentMain.cs       # Cổng Học viên (6 Tab & Ma trận TKB)
-│   ├── FrmReportViewer.cs      # Trình xem & In báo cáo RDLC
-│   └── FrmAbout.cs             # Thông tin tác giả & phiên bản
-├── Helpers/                    # Tầng nghiệp vụ & Thuật toán
-│   ├── DbHelper.cs             # Tự động nhận diện & Khởi tạo CSDL
-│   ├── ScheduleHelper.cs       # Thuật toán phát hiện xung đột lịch
-│   ├── SecurityHelper.cs       # Mã hóa bảo mật PBKDF2 & AES-256
-│   ├── UserSession.cs          # Quản lý phiên đăng nhập & Phân quyền
-│   ├── ExcelExporter.cs        # Xuất file Excel định dạng XML
-│   └── ReceiptPrinter.cs       # In ấn đồ họa GDI+ & Sinh Barcode Code39
-└── Reports/                    # Mẫu báo cáo Microsoft RDLC
-    ├── RptReceipt.rdlc         # Mẫu biên lai học phí (A4 đứng)
-    ├── RptCourseRevenue.rdlc   # Báo cáo tổng hợp doanh thu
-    └── RptStudentClassList.rdlc# Danh sách học viên theo lớp (A4 ngang)
+├── 📁 Properties/                      # Cấu hình Assembly, Resources & Settings
+│   ├── AssemblyInfo.cs                # Thông tin phiên bản & bản quyền hệ thống
+│   ├── Resources.resx                 # Tài nguyên hình ảnh, chuỗi ứng dụng
+│   └── Settings.settings              # Cấu hình chuỗi kết nối CSDL mặc định
+├── 📁 Reports/                         # Mẫu báo cáo Microsoft RDLC & Dữ liệu
+│   ├── ReportModels.cs                # Định nghĩa lớp đối tượng truyền dữ liệu báo cáo
+│   ├── RptCourseRevenue.rdlc          # Mẫu báo cáo tổng hợp doanh thu khóa học
+│   ├── RptReceipt.rdlc                # Mẫu biên lai học phí kèm Barcode (A4 đứng)
+│   └── RptStudentClassList.rdlc       # Mẫu danh sách học viên theo lớp (A4 ngang)
+├── 📁 SqlServerTypes/                  # Thư viện native hỗ trợ Microsoft ReportViewer
+├── 📄 App.config                       # Tệp cấu hình ứng dụng & chuỗi kết nối
+├── 📄 app_icon.ico                     # Biểu tượng ứng dụng (Mũ cử nhân & Sách)
+├── 📄 Course Registration.sln          # Tệp giải pháp Visual Studio
+├── 📄 Course Registration.csproj       # Tệp cấu hình dự án WinForms (.NET 4.8)
+├── 📄 CourseRegistration.dbml          # Lược đồ ánh xạ ORM LINQ to SQL
+├── 📄 Database.sql                     # Kịch bản khởi tạo CSDL 7 bảng & dữ liệu mẫu
+├── 📄 InitDatabase.sql                 # Kịch bản tạo CSDL dự phòng
+├── 📄 packages.config                  # Quản lý các gói phụ thuộc NuGet
+├── 📄 Program.cs                       # Điểm khởi chạy ứng dụng (Main Entry Point)
+├── 📄 FrmLogin.cs                      # Giao diện Đăng nhập & Xác thực
+├── 📄 FrmRegister.cs                   # Giao diện Đăng ký tài khoản học viên mới
+├── 📄 FrmAdminMain.cs                  # Giao diện Cổng Quản trị viên (7 Tab quản lý)
+├── 📄 FrmStudentMain.cs                # Giao diện Cổng Học viên (6 Tab & Ma trận TKB)
+├── 📄 FrmReportViewer.cs               # Giao diện Trình xem & In báo cáo RDLC
+├── 📄 FrmAbout.cs                      # Giao diện Thông tin tác giả & Phiên bản
+├── 📄 DbHelper.cs                      # Tự động nhận diện Instance & Khởi tạo CSDL
+├── 📄 ScheduleHelper.cs                # Thuật toán phát hiện xung đột lịch học đa chiều
+├── 📄 SecurityHelper.cs                # Mã hóa bảo mật mật khẩu PBKDF2 & AES-256
+├── 📄 UserSession.cs                   # Quản lý phiên làm việc & Phân quyền RBAC
+├── 📄 ExcelExporter.cs                 # Kết xuất bảng tính Excel định dạng XML
+├── 📄 ReceiptPrinter.cs                # In ấn đồ họa GDI+ & Sinh mã vạch Code39
+└── 📄 README.md                        # Hướng dẫn chi tiết về dự án
 ```
